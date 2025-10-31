@@ -1,92 +1,119 @@
 
 // Data
 const bootcampData = {
-    title: "Bootcamp Inteligencia Artificial",
-    weeks: 36,
+    title: "Bootcamp Análisis de Datos",
+    weeks: 18,
     modules: [
-        { name: "Módulo 1", start: 1, end: 7 }, 
-        { name: "Módulo 2", start: 8, end: 15 }, 
-        { name: "Módulo 3", start: 17, end: 33 }, 
-        { name: "End", start: 33, end: 36 }, 
+        { name: "Módulo 1", start: 1, end: 4 }, 
+        { name: "Módulo 2", start: 5, end: 9 }, 
+        { name: "Módulo 3", start: 10, end: 14 }, 
+        { name: "End", start: 15, end: 18 }, 
     ],
     stack: [
         {
             type: "Competencia",
-            name: "Gestionar equipos de forma eficiente",
+            name: "configurar y automatizar su entorno de trabajo.",
             start: 1,
-            end: 36,
+            end: 18,
         },
         {
             type: "Competencia",
-            name: "Gestionar proyectos de desarrollo con herramientas de control de versiones.",
+            name: "Gestionar equipos técnicos.",
             start: 1,
-            end: 36,
+            end: 18,
+        },
+        {
+            type: "Competencia",
+            name: "Evaluar Conjuntos de datos",
+            start: 1,
+            end: 18,
+        },
+        {
+            type: "Competencia",
+            name: "Desarrollar interfaces dinámicas",
+            start: 1,
+            end: 18,
         },
         {
             type: "Competencia",
             name: "Ser capaz de desarrollar un programa en Python",
             start: 1,
-            end: 36,
+            end: 18,
         },
-        {
-            type: "Competencia",
-            name: "Diseñar y gestionar bases de datos de manera eficiente",
-            start: 1,
-            end: 36,
-        },
-        {
-            type: "Competencia",
-            name: "Implementar tests para garantizar la calidad del software",
-            start: 1,
-            end: 36,
-        },
-        {
-            type: "Competencia",
-            name: "Implementar un sistema de webscrapping para la recopilación de datos",
-            start: 1,
-            end: 36,
-        },
-        {
-            type: "Competencia",
-            name: "Desplegar y gestionar aplicaciones en entornos de nube",
-            start: 1,
-            end: 36,
-        },
-        {
+         {
             type: "Course",
             name: "<a href='https://www.netacad.com/courses/python-essentials-1?courseLang=en-US'>Curso de Python</a>",
             start: 1,
-            end: 7,
-        },
+            end: 4,
+        }, 
         {
             type: "Proyecto",
-            name: "App con Python | <i class='bi bi-person-fill'></i>",
+            name: "Analisis descriptivo con Excel | <i class='bi bi-person-fill'></i>",
             start: 1,
             end: 2,
         },
         {
             type: "Proyecto",
-            name: "Un CRUD | <i class='bi bi-people-fill'></i>",
+            name: "Taximetro | <i class='bi bi-people-fill'></i>",
             start: 3,
-            end: 5,
+            end: 3,
+        },
+         {
+            type: "Proyecto",
+            name: "Analisis automatizado con Python | <i class='bi bi-people-fill'></i>",
+            start: 4,
+            end: 4,
         },
         {
+            type: "Competencia",
+            name: "Diseñar y gestionar bases de datos",
+            start: 5,
+            end: 18,
+        },
+    
+        {
+            type: "Competencia",
+            name: "Desplegar aplicaciones",
+            start: 5,
+            end: 18,
+        },
+     ,
+        {
             type: "Proyecto",
-            name: "Web Scraping | <i class='bi bi-person-fill'></i>",
+            name: "Base de datos Analitica SQL | <i class='bi bi-person-fill'></i>",
+            start: 5,
+            end: 5,
+        },
+
+         {
+            type: "Proyecto",
+            name: "Análisis estadistico y prueba de hipotesis (EDA) | <i class='bi bi-person-fill'></i>",
             start: 6,
             end: 7,
         },
         {
-            type: "Competencia",
-            name: "Evaluar conjuntos de datos utilizando herramientas de análisis y de visualización de datos",
+            type: "Proyecto",
+            name: "Análisis con Herramientas de BI | <i class='bi bi-person-fill'></i>",
             start: 8,
-            end: 36,
+            end: 9,
+        },
+         {
+            type: "Course",
+            name: "<a href='https://learn.microsoft.com/es-es/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification'>Certificaciones de Azure</a>",
+            start: 5,
+            end: 9,
         },
         {
             type: "Competencia",
-            name: "Aplicar algoritmos de aprendizaje automático según el problema, identificando y resolviendo problemas clásicos de inteligencia artificial",
-            start: 8,
-            end: 36,
+            name: "Aplicar algoritmos de aprendizaje automático",
+            start: 10,
+            end: 18,
+        },
+         {
+            type: "Competencia",
+            name: "Optimizar parámetros de IA",
+            start: 10,
+            end: 18,
         },
         {
             type: "Course",
@@ -96,14 +123,8 @@ const bootcampData = {
         },
         {
             type: "Proyecto",
-            name: "Datathon | <i class='bi bi-person-fill'></i>",
-            start: 8,
-            end: 8,
-        },
-        {
-            type: "Proyecto",
-            name: "Problema de regresión | <i class='bi bi-person-fill'></i>",
-            start: 9,
+            name: "Problema de Aprendizaje no Supervisado | <i class='bi bi-person-fill'></i>",
+            start: 10,
             end: 10,
         },
         {
@@ -114,81 +135,33 @@ const bootcampData = {
         },
         {
             type: "Proyecto",
-            name: "Machine learning avanzado | <i class='bi bi-person-fill'></i>",
+            name: "Problema de Regresión | <i class='bi bi-person-fill'></i>",
             start: 13,
-            end: 15,
+            end: 13,
         },
-        {
-            type: "Transición",
-            name: "Transición flexible",
-            start: 16,
-            end: 19,
-        },
-        {
-            type: "Competencia",
-            name: "Modificar los parámetros y componentes de la inteligencia artificial para mejorar su rendimiento",
-            start: 20,
-            end: 36,
-        },
-        {
-            type: "Competencia",
-            name: "Crear un modelo de inteligencia artificial utilizando técnicas y algoritmos de Procesamiento del Lenguaje Natural",
-            start: 20,
-            end: 36,
-        },
-        {
-            type: "Competencia",
-            name: "Crear un modelo de inteligencia artificial utilizando técnicas y algoritmos de Computer Vision",
-            start: 20,
-            end: 36,
-        },
-        {
-            type: "Course",
-            name: "<a href='https://learn.microsoft.com/es-es/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification'>Certificaciones de Azure</a>",
-            start: 20,
-            end: 32,
-        },
-        {
+         {
             type: "Proyecto",
-            name: "Tracks: Data Engineer (Spark, Redis, Kafka, etc.), Data Analyst (Power BI, Tableau, Dash, etc.), AI Developer (Keras, MLops, etc.) | <i class='bi bi-people-fill'></i>",
-            start: 20,
-            end: 23,
-        },
-        {
-            type: "Proyecto",
-            name: "NLP (Youtube comments) | <i class='bi bi-people-fill'></i>",
-            start: 24,
-            end: 26,
-        },
-        {
-            type: "Proyecto",
-            name: "LLM (Rag + agentes) | <i class='bi bi-people-fill'></i>",
-            start: 27,
-            end: 29,
-        },
-        {
-            type: "Proyecto",
-            name: "Computer vision | <i class='bi bi-people-fill'></i>",
-            start: 30,
-            end: 32,
+            name: "Forcasting con Series Temporales | <i class='bi bi-person-fill'></i>",
+            start: 14,
+            end: 14,
         },
         {
             type: "Proyecto",
             name: "Proyectos Finales | <i class='bi bi-people-fill'></i>",
-            start: 33,
-            end: 36,
+            start: 15,
+            end: 18,
         },
     ],
     links:  {
-        googleCalendar: "https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FMadrid&src=Y18zMDQ4MjU4NDYxYWE5MTk2YzE3YjgyNDc4OTk5NDk2MzNjNzMzZDk4MzhlZjFhZTQ1YzMzZTQ5ZDRkZGU5ZGZmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4",
-        zoom: "https://zoom.us/j/93693564454?pwd=BJPWUlb30okd0PlKIOi45eaqWIIJEW.1",
-        classroom: "https://classroom.google.com/c/NzY5OTQ3MDUxNDMx?cjc=bp4u6fog",
-        discord: "https://discord.gg/FdyRs573",
+        //googleCalendar: "https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FMadrid&src=Y18zMDQ4MjU4NDYxYWE5MTk2YzE3YjgyNDc4OTk5NDk2MzNjNzMzZDk4MzhlZjFhZTQ1YzMzZTQ5ZDRkZGU5ZGZmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4",
+        zoom: "https://zoom.us/j/97768164423?pwd=PJYf5SmJD0ydDyDayWukbZKAAfVFMS.1",
+        classroom: "https://classroom.google.com/c/ODIxOTk1MzQ4OTA3?cjc=zwkduqgr",
+        discord: "https://discord.gg/XnpRH98A",
         github: "https://github.com/Factoria-F5-dev"
     },
     competencies: [
         {
-            name: "Gestionar equipos de forma eficiente",
+            name: "Gestionar equipos técnicos",
             metric: ["Planificación y gestión del proyecto"],
             indicator: {
                 typeBasic: [
@@ -222,22 +195,7 @@ const bootcampData = {
             }
         },
         {
-            name: "Comunicar efectivamente el desarrollo de un proyecto de forma claras y estructurada",
-            indicator: {
-                typeBasic: [
-                    "Uso de Contenido Visual", 
-                    "Uso de Estructura ordenada",
-                    "Uso de estructura Pragmática / Concreta",
-                    "Participación del equipo",
-                    "Uso de Storytelling",
-                ],
-                typeExtra:[
-                    "Uso de herramientas de diseño (Canva, Figma, etc.)",
-                ]
-            }
-        },
-        {
-            name: "Gestionar eficientemente proyectos de desarrollo con herramientas de control de versiones",
+            name: "Configura y automatiza su entorno de trabajo",
             indicator: {
                 typeBasic: [
                     "Uso de github, gitlab o bitbucket", 
@@ -257,7 +215,7 @@ const bootcampData = {
             themes: {
                 typeBasic: [
                     "Sistemas operativos (Windows, Linux, Mac)",
-                    "Terminal unix (¿Unix está en todos los sistemas operativos?)",
+                    "Terminal Unix/linux básico (navegación, manipulación de archivos y permisos)",
                     "Git vs github",
                     "Gitflow",
                 ],
@@ -279,7 +237,6 @@ const bootcampData = {
                     "Uso de Control de errores (cláusula try/except)",
                     "Uso de herramientas de logger",
                     "Uso de POO (Programación Orientada a Objetos)",
-                    "Uso de frameworks (fASTAPI, Flask, Django)",
                     "Uso de librerias",
                     "Uso de jupyter",
                     "Uso de Entornos virtuales (venv, conda, virtualenv)",
@@ -304,11 +261,6 @@ const bootcampData = {
                     "Heramientas de logger",
                     "IOT",
                     "Introducción a redes y protocolos de comunicación",
-                    "Api rest",
-                    "CRUD",
-                    "Frameworks (fASTAPI, Flask, Django)",
-                    "Clean code (SOLID, DRY, KISS)",
-                    "Patrones de Diseño",
                     "Regex",
 
                 ],
@@ -324,7 +276,7 @@ const bootcampData = {
         },
         // 
         {
-            name: "Implementar un sistema de webscrapping para la recopilación de datos",
+            name: "Implementar sistemas de extraccion de datos desde la web",
             indicator: {
                 typeBasic: [
                     "Uso de Scraper",
@@ -344,7 +296,7 @@ const bootcampData = {
         },
         // 
         {
-            name: "Diseñar y gestionar bases de datos de manera eficiente",
+            name: "Diseñar y gestionar bases de datos",
             indicator: {
                 typeBasic: [
                     "Uso de Modelado de datos",
@@ -372,34 +324,9 @@ const bootcampData = {
                 ]
             }
         },
+        //
         {
-            name: "Implementar tests para garantizar la calidad del software",
-            indicator: {
-                typeBasic: [
-                    "Uso de Test Unitarios",
-                    "Uso de Test de Integración",
-                    "Uso de TDD"
-                ],
-                typeExtra: [
-                    "Covertura del 80% de código",
-                    "Uso de Pruebas de aceptación y validación de funcionalidades (Test de Aceptación del Usuario - UAT)",
-                    "Uso de Pruebas de compatibilidad (cross-browser, dispositivos, versiones)"
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Test Unitarios (pytest, unittest)",
-                    "Test de Integración",
-                    "Test driven development (TDD)",
-                ],
-                typeExtra: [
-                    "Pruebas de integración continua y despliegue continuo (CI/CD)",
-                    "Mocking y pruebas con dependencias externas (mockito, pytest-mock WireMock)"
-                ]
-            }
-        },
-        {
-            name: "Desplegar y gestionar aplicaciones en entornos de nube",
+            name: "Despliegue de aplicaciones",
             indicator: {
                 typeBasic: [
                     "Uso de Docker",
@@ -428,7 +355,7 @@ const bootcampData = {
             }
         },
         {
-            name: "Evaluar conjuntos de datos utilizando herramientas de análisis y de visualización de datos",
+            name: "Evaluar conjuntos de datos",
             indicator: {
                 typeBasic: [
                     "Uso y gestión de formato .csv",
@@ -459,7 +386,7 @@ const bootcampData = {
             }
         },
         {
-            name: "Aplicar algoritmos de aprendizaje automático según el problema, identificando y resolviendo problemas clásicos de inteligencia artificial",
+            name: "Aplicar algoritmos de aprendizaje automático",
             indicator: {
                 typeBasic: [
                     "Seleccionar las variables que son útiles y las que no lo son",
@@ -496,7 +423,7 @@ const bootcampData = {
         },
         {
             module: "Módulo 3",
-            name: "Modificar los parámetros y componentes de la inteligencia artificial para mejorar su rendimiento",
+            name: "Optimizar parámetros de IA",
             indicator: {
                 typeBasic: [
                     "Optimización de Hiperparámetros",
@@ -531,8 +458,8 @@ const bootcampData = {
             }
         },
         {
-            module: "Módulo 3",
-            name: "Crear un modelo de inteligencia artificial utilizando técnicas y algoritmos de Procesamiento del Lenguaje Natural",
+            module: "Módulo 1",
+            name: "Desarrollo de interfaces dinámicas",
             indicator: {
                 typeBasic: [
                     "Preprocesamiento (stemming, lematización, stopwords)",
@@ -562,36 +489,8 @@ const bootcampData = {
                     "Aprendizaje por refuerzo aplicado a NLP",
                 ]
             }
-        },
-        {
-            module: "Módulo 3",
-            name: "Crear un modelo de inteligencia artificial utilizando técnicas y algoritmos de Computer Vision",
-            indicator: {
-                typeBasic: [
-                "Uso de técnicas de preprocesamiento de imágenes: resizing, normalización, escalado",
-                "Uso de Datasets de Imágenes para detección de objetos",
-                "Implementa detección de objetos reentrenando modelo preentrenado",
-                "Aumento de datos con técnicas visuales (flip, crop, color jitter)",
-                ],
-                typeExtra: [
-                    "Uso de técnicas de segmentación de objetos", 
-                    "Uso de técnicas de detección de objetos en tiempo real"
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Técnicas de Aumento de Datos en Imágenes",
-                    "Reconoce patrones visuales y características con CNNs",
-                    "Transfer Learning en Visión por Computadora",
-                    "Detección de Objetos con YOLO , R-CNN y SSD",
-                    "Tipos de segmentación de Imágenes (U-Net, SAM)"
-                ],
-                typeExtra: [
-                    "Redes Generativas Antagónicas (GANs) en Visión por Computadora",
-                    "Modelos de Difusión",
-                ]
-            }
         }
+       
     ]
 }
 
