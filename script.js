@@ -58,9 +58,9 @@ const bootcampData = {
             start: 3,
             end: 3,
         },
-         {
+{
             type: "Proyecto",
-            name: "Analisis automatizado con Python | <i class='bi bi-people-fill'></i>",
+            name: "Base de datos Analitica SQL | <i class='bi bi-person-fill'></i>",
             start: 4,
             end: 4,
         },
@@ -78,13 +78,12 @@ const bootcampData = {
             end: 18,
         },
      ,
-        {
+       {
             type: "Proyecto",
-            name: "Base de datos Analitica SQL | <i class='bi bi-person-fill'></i>",
+            name: "ETL con Python | <i class='bi bi-people-fill'></i>",
             start: 5,
             end: 5,
         },
-
          {
             type: "Proyecto",
             name: "Análisis estadistico y prueba de hipotesis (EDA) | <i class='bi bi-person-fill'></i>",
@@ -99,7 +98,7 @@ const bootcampData = {
         },
          {
             type: "Course",
-            name: "<a href='https://learn.microsoft.com/es-es/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification'>Certificaciones de Azure</a>",
+            name: "<a href='https://learn.microsoft.com/es-es/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification&source=learn'>Certificaciones de Azure</a>",
             start: 5,
             end: 9,
         },
@@ -161,6 +160,39 @@ const bootcampData = {
     },
     competencies: [
         {
+            name: "Configura y automatiza su entorno de trabajo",
+            indicator: {
+                typeBasic: [
+                    "Uso de github, gitlab o bitbucket", 
+                    "Conectar repo local al remoto", 
+                    "Uso de Gitflow methodology",
+                    "Uso de Commits descriptivos",
+                    "Uso apropiado de ramas",
+                    "Uso de Nomenclatura en commits",
+                    "Uso de Nomenclatura en ramas",
+                ],
+                typeExtra: [
+                    "Integración de github actions CI/CD", 
+                    "Uso de SonarQube, ESLint",
+                    "Uso de Dependabot",
+                ]
+            },
+            themes: {
+                typeBasic: [
+                    "Sistemas operativos (Windows, Linux, Mac)",
+                    "Terminal Unix/linux básico (navegación, manipulación de archivos y permisos)",
+                    "Git vs github",
+                    "Gitflow",
+                ],
+                typeExtra: [
+                    "Git actions CI/CD",
+                    "Monitoreo de código y calidad con herramientas de integración continua (SonarQube, ESLint)",
+                    "Manejo de versiones de dependencias con herramientas como Dependabot",
+                    "Manejo de logs",
+                ]
+            }
+        },
+        {
             name: "Gestionar equipos técnicos",
             metric: ["Planificación y gestión del proyecto"],
             indicator: {
@@ -194,36 +226,67 @@ const bootcampData = {
                 ]
             }
         },
-        {
-            name: "Configura y automatiza su entorno de trabajo",
+         {
+            name: "Evaluar conjuntos de datos",
             indicator: {
                 typeBasic: [
-                    "Uso de github, gitlab o bitbucket", 
-                    "Conectar repo local al remoto", 
-                    "Uso de Gitflow methodology",
-                    "Uso de Commits descriptivos",
-                    "Uso apropiado de ramas",
-                    "Uso de Nomenclatura en commits",
-                    "Uso de Nomenclatura en ramas",
+                    "Uso y gestión de formato .csv",
+                    "Limpieza y preprocesado de datos",
+                    "Visualización de datos (seaborn, matplotlib, plotly)",
+                    "Análisis exploratorio detallado (EDA)",
+                    "Uso de librerías que permitan el desarrollo de paneles de visualización de datos (dash, streamlit, gradio)",
+                    "Uso de técnicas de preprocesado  (normalización, escalado, label encoder, one hot encoder)",
+                    "Visualización de datos en Dashboard de BI (powerBI, Tableu))",
+                    "Uso de técnicas avanzadas de limpieza de datos (eliminación de valores atípicos, imputación de valores faltantes)"
                 ],
-                typeExtra: [
-                    "Integración de github actions CI/CD", 
-                    "Uso de SonarQube, ESLint",
-                    "Uso de Dependabot",
+                typeExtra:[
+                    "Uso de técnicas de reducción de dimensionalidad (PCA, t-SNE)",
                 ]
             },
             themes: {
                 typeBasic: [
-                    "Sistemas operativos (Windows, Linux, Mac)",
-                    "Terminal Unix/linux básico (navegación, manipulación de archivos y permisos)",
-                    "Git vs github",
-                    "Gitflow",
+                    "Estadística en el análisis de datos",
+                    "Data Cleaning con Python",
+                    "Tipos de gráficas en analisis de datos",
+                    "ETLs",
+                    "PowerBi y alternativas",
+                    "Storytelling de datos"
                 ],
                 typeExtra: [
-                    "Git actions CI/CD",
-                    "Monitoreo de código y calidad con herramientas de integración continua (SonarQube, ESLint)",
-                    "Manejo de versiones de dependencias con herramientas como Dependabot",
-                    "Manejo de logs",
+                    "Implementación de pipelines automatizados para limpieza y preprocesamiento de datos con herramientas como scikit-learn o TensorFlow Data",
+                ]
+            }
+        },
+        {
+            module: "Módulo 1",
+            name: "Desarrollo de interfaces dinámicas",
+            indicator: {
+                typeBasic: [
+                    "Preprocesamiento (stemming, lematización, stopwords)",
+                    "Modelos de clasificación aplicados a texto",
+                    "Uso de redes Neuronales Recurrentes (LSTM, GRU)",
+                    "Emplea técnicas de vectorización clásicas",
+                    "Uso de Expresiones regulares",
+                    "Implementa técnicas de data augmentation en texto (traducción, reemplazo por sinónimos, etc)",
+                    "Uso de modelos LLM",
+                    "Uso de frameworks para desarrollar aplicaciones de LLMs (LancgChain, CrewAI)",
+                    
+                ],
+                typeExtra: [
+                    "Finetuning de LLMs",
+                    "Uso de Modelos basados en Transformers",
+                    "Uso de arquitecturas RAG",
+                ]
+            },
+            themes: {
+                typeBasic: [
+                    "Pytorch",
+                    "Redes Recurrentes (RNNs, LSTM, GRU)",
+                    "TensorFlow y Keras",
+                    "Técnicas de data augmentation textual",
+                ],
+                typeExtra: [
+                    "Aprendizaje por refuerzo aplicado a NLP",
                 ]
             }
         },
@@ -275,25 +338,6 @@ const bootcampData = {
             }
         },
         // 
-        {
-            name: "Implementar sistemas de extraccion de datos desde la web",
-            indicator: {
-                typeBasic: [
-                    "Uso de Scraper",
-                    "Uso de tareas Cron",
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Estructura de un documento HTML (DOM y conección a Javascript)",
-                    "Requests, API REST",
-                    "Scrappy",
-                    "Selenium",
-                    "BeautifulSoup",
-                    "Cronjob"
-                ]
-            }
-        },
         // 
         {
             name: "Diseñar y gestionar bases de datos",
@@ -351,37 +395,6 @@ const bootcampData = {
                     "Cloud Computing",
                     "HDFS",
                     "MLOps"
-                ]
-            }
-        },
-        {
-            name: "Evaluar conjuntos de datos",
-            indicator: {
-                typeBasic: [
-                    "Uso y gestión de formato .csv",
-                    "Limpieza y preprocesado de datos",
-                    "Visualización de datos (seaborn, matplotlib, plotly)",
-                    "Análisis exploratorio detallado (EDA)",
-                    "Uso de librerías que permitan el desarrollo de paneles de visualización de datos (dash, streamlit, gradio)",
-                    "Uso de técnicas de preprocesado  (normalización, escalado, label encoder, one hot encoder)",
-                    "Visualización de datos en Dashboard de BI (powerBI, Tableu))",
-                    "Uso de técnicas avanzadas de limpieza de datos (eliminación de valores atípicos, imputación de valores faltantes)"
-                ],
-                typeExtra:[
-                    "Uso de técnicas de reducción de dimensionalidad (PCA, t-SNE)",
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Estadística en el análisis de datos",
-                    "Data Cleaning con Python",
-                    "Tipos de gráficas en analisis de datos",
-                    "ETLs",
-                    "PowerBi y alternativas",
-                    "Storytelling de datos"
-                ],
-                typeExtra: [
-                    "Implementación de pipelines automatizados para limpieza y preprocesamiento de datos con herramientas como scikit-learn o TensorFlow Data",
                 ]
             }
         },
@@ -457,39 +470,7 @@ const bootcampData = {
                 ]
             }
         },
-        {
-            module: "Módulo 1",
-            name: "Desarrollo de interfaces dinámicas",
-            indicator: {
-                typeBasic: [
-                    "Preprocesamiento (stemming, lematización, stopwords)",
-                    "Modelos de clasificación aplicados a texto",
-                    "Uso de redes Neuronales Recurrentes (LSTM, GRU)",
-                    "Emplea técnicas de vectorización clásicas",
-                    "Uso de Expresiones regulares",
-                    "Implementa técnicas de data augmentation en texto (traducción, reemplazo por sinónimos, etc)",
-                    "Uso de modelos LLM",
-                    "Uso de frameworks para desarrollar aplicaciones de LLMs (LancgChain, CrewAI)",
-                    
-                ],
-                typeExtra: [
-                    "Finetuning de LLMs",
-                    "Uso de Modelos basados en Transformers",
-                    "Uso de arquitecturas RAG",
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Pytorch",
-                    "Redes Recurrentes (RNNs, LSTM, GRU)",
-                    "TensorFlow y Keras",
-                    "Técnicas de data augmentation textual",
-                ],
-                typeExtra: [
-                    "Aprendizaje por refuerzo aplicado a NLP",
-                ]
-            }
-        }
+        
        
     ]
 }
