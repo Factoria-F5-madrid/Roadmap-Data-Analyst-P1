@@ -54,7 +54,7 @@ const bootcampData = {
         },
         {
             type: "Proyecto",
-            name: "Taximetro | <i class='bi bi-people-fill'></i>",
+            name: "Desarrollo de un programa en python | <i class='bi bi-people-fill'></i>",
             start: 3,
             end: 3,
         },
@@ -78,6 +78,12 @@ const bootcampData = {
             end: 18,
         },
      ,
+              {
+            type: "Course",
+            name: "<a href='https://learn.microsoft.com/es-es/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification&source=learn'>Curso Microsoft Learn Analista de Datos</a>",
+            start: 5,
+            end: 9,
+        },
        {
             type: "Proyecto",
             name: "ETL con Python | <i class='bi bi-people-fill'></i>",
@@ -96,12 +102,6 @@ const bootcampData = {
             start: 8,
             end: 9,
         },
-         {
-            type: "Course",
-            name: "<a href='https://learn.microsoft.com/es-es/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification&source=learn'>Certificaciones de Azure</a>",
-            start: 5,
-            end: 9,
-        },
         {
             type: "Competencia",
             name: "Aplicar algoritmos de aprendizaje automático",
@@ -117,8 +117,8 @@ const bootcampData = {
         {
             type: "Course",
             name: "<a href='https://ti.to/saturdaysai/data-science-fundamentals/'>Curso de Machine Learning enfocado en Data Science</a>",
-            start: 8,
-            end: 15,
+            start: 10,
+            end: 14,
         },
         {
             type: "Proyecto",
