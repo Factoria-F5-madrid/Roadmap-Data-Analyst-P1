@@ -258,39 +258,41 @@ const bootcampData = {
             }
         },
         {
-            module: "Módulo 1",
-            name: "Desarrollo de interfaces dinámicas",
-            indicator: {
-                typeBasic: [
-                    "Preprocesamiento (stemming, lematización, stopwords)",
-                    "Modelos de clasificación aplicados a texto",
-                    "Uso de redes Neuronales Recurrentes (LSTM, GRU)",
-                    "Emplea técnicas de vectorización clásicas",
-                    "Uso de Expresiones regulares",
-                    "Implementa técnicas de data augmentation en texto (traducción, reemplazo por sinónimos, etc)",
-                    "Uso de modelos LLM",
-                    "Uso de frameworks para desarrollar aplicaciones de LLMs (LancgChain, CrewAI)",
-                    
-                ],
-                typeExtra: [
-                    "Finetuning de LLMs",
-                    "Uso de Modelos basados en Transformers",
-                    "Uso de arquitecturas RAG",
-                ]
-            },
-            themes: {
-                typeBasic: [
-                    "Pytorch",
-                    "Redes Recurrentes (RNNs, LSTM, GRU)",
-                    "TensorFlow y Keras",
-                    "Técnicas de data augmentation textual",
-                ],
-                typeExtra: [
-                    "Aprendizaje por refuerzo aplicado a NLP",
-                ]
-            }
-        },
-        {
+    module: "Módulo 1",
+    name: "Desarrollo de interfaces dinámicas",
+    indicator: {
+        typeBasic: [
+            "Streamlit",
+            "Dash",
+            "Plotly",
+            "Bokeh",
+            "HTML, CSS y JavaScript",
+            "Principios de diseño UI/UX",
+            "Integración de gráficos dinámicos e interactivos"
+        ],
+        typeExtra: [
+            "Bases de datos en tiempo real (Firebase, Supabase)",
+            "Autenticación de usuarios",
+            "Dashboards colaborativos o multiusuario",
+        ]
+    },
+    themes: {
+        typeBasic: [
+            "Fundamentos de diseño UI/UX",
+            "HTML, CSS y JavaScript",
+            "Streamlit",
+            "Dash y Plotly",
+            "Bokeh",
+            "Visualización interactiva de datos",
+        ],
+        typeExtra: [
+            "Integración con APIs REST",
+            "React para dashboards avanzados",
+        ]
+    }
+}
+
+,        {
             name: ["Ser capaz de desarrollar un programa en Python"],
             indicator: {
                 typeBasic: [
